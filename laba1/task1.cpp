@@ -1,9 +1,8 @@
-
 #include <iostream>
 #include <vector>
 #include <chrono>
 #include <boost/thread.hpp>
-
+//харитоноа матрешка
 using namespace std;
 
 long long fibonacci(int n) {
@@ -48,7 +47,6 @@ double runParallel(int numThreads, int fibIndex, vector<long long>& results) {
 }
 
 int main() {
-    setlocale(LC_ALL, "Russian");
 
     int fibIndex = 40;
     vector<int> threadCounts = {2, 4, 8};
